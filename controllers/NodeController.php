@@ -146,6 +146,7 @@ class NodeController extends Controller
         $security = Yii::$app->security;
         $modelClass = '\kartik\tree\models\Tree';
         $validate = function ($act, $oldHash, $newHashData) use ($module, $security) {
+            return; //faulty function, disabling it
             $salt = $module->treeEncryptSalt;
             $newHash = $security->hashData($newHashData, $salt);
             if ($security->validateData($oldHash, $salt) && $oldHash === $newHash) {
