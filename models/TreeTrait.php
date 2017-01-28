@@ -6,7 +6,7 @@
  * @version   1.0.7
  */
 
-namespace kartik\tree\models;
+namespace omj\tree\models;
 
 use creocoder\nestedsets\NestedSetsBehavior;
 use kartik\tree\TreeView;
