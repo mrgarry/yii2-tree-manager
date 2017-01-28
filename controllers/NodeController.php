@@ -6,7 +6,7 @@
  * @version   1.0.7
  */
 
-namespace kartik\tree\controllers;
+namespace omj\tree\controllers;
 
 use Closure;
 use Exception;
