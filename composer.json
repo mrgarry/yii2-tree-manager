@@ -27,6 +27,12 @@
     "creocoder/yii2-nested-sets": "~0.9",
     "kartik-v/yii2-dialog": "~1.0"
   },
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/mrgarry/yii2-tree-manager"
+      }
+  ],
   "autoload": {
     "psr-4": {
       "omj\\tree\\": ""
